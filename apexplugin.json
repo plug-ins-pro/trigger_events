@@ -1,0 +1,52 @@
+{
+   "name": "UC - Trigger Event(s)",
+   "version": "22.1.0",
+   "description": "A highly customisable dynamic Tooltip plug-in.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EUC - Tooltip \u003C\/strong\u003E dynamic action plug-in offers a simple and powerful solution to extend any APEX application with fancy tooltips. Based on the popular open source \u003Ca href=\"https:\/\/atomiks.github.io\/tippyjs\/\" target=\"_blank\"\u003ETippy.js\u003C\/a\u003E javascript library, we have added plenty of great features and customization capability that you can take advantage of.\u003C\/p\u003E\u003Cp\u003EYou can choose from different source options e.g. static, DOM attribute, SQL query, or PL\/SQL, meaning your content can be static or dynamically fetched from the database with the option to cache the results for maximum efficiency.\u003C\/p\u003E",
+   "keywords": [
+      "tooltip",
+      "dynamic"
+   ],
+   "license": "MIT",
+   "commercial": "No",
+   "commercially_supported": "Yes",
+   "homepage": "https:\/\/github.com\/foex-open-source\/uc-tooltip",
+   "bugs": {
+      "url": "https:\/\/github.com\/foex-open-source\/uc-tooltip\/issues",
+      "email": "support@uc.world"
+   },
+   "author": {
+      "name": "UC GmbH",
+      "email": "office@uc.world",
+      "url": "https:\/\/foex.at\/uc\/",
+      "twitter": "@foexopensource"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https:\/\/github.com\/foex-open-source\/uc-tooltip.git"
+   },
+   "oracle": {
+      "versions": [
+         "12.1.0.1",
+         "12.2.0.1",
+         "18.0.0.0",
+         "19.0.0.0",
+         "21.0.0.0"
+      ],
+      "apex": {
+         "versions": [
+            "19.2.0",
+            "20.1.0",
+            "20.2.0",
+            "21.1.0",
+            "21.2.0",
+            "22.1.0"
+         ],
+         "plugin": {
+            "internalName": "UNITEDCODES_TRIGGER_EVENT",
+            "type": "dynamic action",
+            "demo": "https:\/\/uc.world\/ords\/f?p=10000:1150",
+            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.TOOLTIP"
+         }
+      }
+   }
+}
